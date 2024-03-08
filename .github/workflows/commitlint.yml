@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     if: github.event.pull_request.user.login != 'dependabot[bot]'
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744 # v3.6.0
         with:
           fetch-depth: 0
-      - uses: wagoid/commitlint-github-action@v5.3.0
+      - uses: wagoid/commitlint-github-action@481aff4de4d0de6d28d05533d4230d298ea3377d # v5.3.0

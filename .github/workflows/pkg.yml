@@ -9,4 +9,4 @@ on:
 
 jobs:
   run:
-    uses: go-faster/x/.github/workflows/release.yml@main
+    uses: go-faster/x/.github/workflows/release.yml@bbef5142645658337bbd371d62762fe2e4af1d5b # main
